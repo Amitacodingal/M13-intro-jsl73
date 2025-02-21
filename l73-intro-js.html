@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+<!-- Activity 1 -->
+
+<h1 id="h1">Welcome to JS class </h1>
+<p id="para1">here we are getting introduced to javascript and knowing about its syntax</p>
+
+<!-- Activity 2 -->
+<h2>lets add two numbers</h2>
+<p id="add"></p>
+
+<!-- Activity 3  -->
+
+<!-- statements: Are set of instructions to a program 
+
+values are assigned to variables. sometimes called as literals 
+
+The type of values stored in a variable is called datatype
+
+
+
+-->
+
+<p id="types"></p>
+<hr><hr><br>
+<h1>Simple Calculator ACP</h1>
+<p>Perform all Operations using JavaScript</p>
+<p id="add"></p>
+<p id="sub"></p>
+<p id="mul"></p>
+<p id="div"></p>
+<script>
+//act1
+document.getElementById("para1").innerHTML = "Learning about javascript comments and syntax"
+
+document.getElementById("h1").innerHTML = "Welocme to MY JS Lesson, Javascript is added in script tag"
+//act 2 this is how we can add comments in JS
+var n1=10 ,n2=20,sum
+sum = n1+n2
+document.getElementById("add").innerHTML = "The sum of two numbers n1 =10 and n2=20 is" + sum
+
+//activity3  here we are storing different types of values
+// activity4 datatypes 
+var s1 = "String1"
+var s2 = "String2"
+let x =30
+let temp = 23.54 
+let present = true
+
+document.write(s1 ,s2 ,x ,temp ,present )
+
+//ACP
+
+var num1 = 10;
+var num2 = 2;
+var add = num1 + num2;
+var sub = num1 - num2;
+var mul = num1 * num2;
+var div = num1 / num2;
+document.getElementById("add").innerHTML =
+"The added value is: " + add;
+document.getElementById("sub").innerHTML =
+"The subtracted value is: " + sub;
+document.getElementById("mul").innerHTML =
+"The multiplied value is: " + mul;
+document.getElementById("div").innerHTML =
+"The divided value is: " + div
+
+
+</script>
+
+
+</body>
+</html>
